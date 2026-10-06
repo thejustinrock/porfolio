@@ -1,1 +1,51 @@
-<h1></h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Justin Chanthabandith</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav>
+        <a href="../">Home</a>
+        <a href="../projects/">Projects</a>
+        <a href="../contact/">Contact</a>
+        <a href="../resume/">Resume</a>
+        <a href="https://github.com/thejustinrock"
+           target="_blank"
+           rel="noopener noreferrer">GitHub</a>
+    </nav>
+
+    <h1>Contact</h1>
+    <p>Use the form below to contact me.</p>
+
+    <form action="mailto:YOUR_EMAIL@example.com"
+          method="POST"
+          enctype="text/plain">
+
+        <p>
+            <label>
+                Your email:
+                <input type="email" name="email">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Subject:
+                <input type="text" name="subject">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Message:
+                <textarea name="body" rows="5"></textarea>
+            </label>
+        </p>
+
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
